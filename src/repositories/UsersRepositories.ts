@@ -3,8 +3,8 @@ import { User } from '../entities/User';
 
 
 @EntityRepository(User)
-class UserRepositories extends Repository<User> {
+class UsersRepositories extends Repository<User> {
 
 };
 
-export { UserRepositories };
+export { UsersRepositories };
