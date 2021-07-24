@@ -22,7 +22,7 @@ class User {
   @CreateDateColumn()
   updated_at: Date;
 
-  @CreateDateColumn()
+  @Column()
   password: string;
 
   constructor() {
