@@ -22,6 +22,9 @@ class User {
   @CreateDateColumn()
   updated_at: Date;
 
+  @CreateDateColumn()
+  password: string;
+
   constructor() {
     if(!this.id) {
       this.id = uuid();
